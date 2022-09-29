@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-10:/menu/example_menu2.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.7.0-3:/menu/example_menu2.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-10:/menu/example_menu.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.7.0-3:/menu/example_menu.xml"
+    }
+]

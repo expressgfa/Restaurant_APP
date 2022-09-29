@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-0 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-1 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.1.1-2 C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.0.0-3 C:\Users\winni\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-4 C:\Users\winni\.gradle\caches\transforms-3\bfa3c606c87eab65281e5cf20d02a58a\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-5 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-pngs-6 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\generated\res\pngs\release
+io.flutter.plugins.firebase.core.firebase_core-resValues-7 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\generated\res\resValues\release
+io.flutter.plugins.firebase.core.firebase_core-rs-8 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\generated\res\rs\release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-11 C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\merged_res\release
+io.flutter.plugins.firebase.core.firebase_core-main-12 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-1.22.0\android\src\main\res
+io.flutter.plugins.firebase.core.firebase_core-release-13 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-1.22.0\android\src\release\res

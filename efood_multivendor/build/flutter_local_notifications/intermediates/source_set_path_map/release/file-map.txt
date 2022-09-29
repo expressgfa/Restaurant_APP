@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-0 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-1 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-2 C:\Users\winni\.gradle\caches\transforms-3\bfa3c606c87eab65281e5cf20d02a58a\transformed\core-1.6.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-3 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-4 C:\Users\winni\.gradle\caches\transforms-3\f92806ceb3445c471ae0e8610b41f958\transformed\media-1.1.0\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-5 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\generated\res\pngs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-6 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\generated\res\resValues\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-7 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\generated\res\rs\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-8 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-9 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-10 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_res\release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-11 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_local_notifications-9.9.1\android\src\main\res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-12 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_local_notifications-9.9.1\android\src\release\res

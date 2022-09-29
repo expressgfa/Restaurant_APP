@@ -1,0 +1,12 @@
+com.julienvignali.phone_number-jetified-window-java-1.0.0-beta04-0 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+com.julienvignali.phone_number-jetified-annotation-experimental-1.1.0-1 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+com.julienvignali.phone_number-core-1.6.0-2 C:\Users\winni\.gradle\caches\transforms-3\bfa3c606c87eab65281e5cf20d02a58a\transformed\core-1.6.0\res
+com.julienvignali.phone_number-jetified-window-1.0.0-beta04-3 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+com.julienvignali.phone_number-pngs-4 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\generated\res\pngs\release
+com.julienvignali.phone_number-resValues-5 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\generated\res\resValues\release
+com.julienvignali.phone_number-rs-6 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\generated\res\rs\release
+com.julienvignali.phone_number-mergeReleaseResources-7 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.julienvignali.phone_number-mergeReleaseResources-8 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.julienvignali.phone_number-merged_res-9 C:\Users\winni\StudioProjects\efood_multivendor\build\phone_number\intermediates\merged_res\release
+com.julienvignali.phone_number-main-10 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\phone_number-0.12.0+2\android\src\main\res
+com.julienvignali.phone_number-release-11 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\phone_number-0.12.0+2\android\src\release\res

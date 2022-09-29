@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jrai.flutter_keyboard_visibility-mergeReleaseResources-6:/values-zh-rHK/values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\winni\\.gradle\\caches\\transforms-3\\bfa3c606c87eab65281e5cf20d02a58a\\transformed\\core-1.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.jrai.flutter_keyboard_visibility-merged_res-8:/values-zh-rHK/values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\winni\\.gradle\\caches\\transforms-3\\bfa3c606c87eab65281e5cf20d02a58a\\transformed\\core-1.6.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

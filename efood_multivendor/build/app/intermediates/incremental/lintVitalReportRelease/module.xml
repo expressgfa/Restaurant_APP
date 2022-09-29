@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\Users\winni\StudioProjects\efood_multivendor\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.1"
+    buildFolder="C:\Users\winni\StudioProjects\efood_multivendor\build\app"
+    bootClassPath="C:\Users\winni\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\winni\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

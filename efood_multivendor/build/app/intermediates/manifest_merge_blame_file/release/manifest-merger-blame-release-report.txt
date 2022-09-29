@@ -1,0 +1,612 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sixamtech.stack_food"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:8:5-66
+17-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:9:5-79
+18-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:10:5-81
+19-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:10:22-78
+20
+21    <queries>
+21-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:12:5-25:15
+22        <intent>
+22-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:13:9-16:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:14:13-65
+23-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:14:21-62
+24
+25            <data android:scheme="https" />
+25-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:13-44
+25-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:19-41
+26        </intent>
+27        <intent>
+27-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:17:9-20:18
+28            <action android:name="android.intent.action.DIAL" />
+28-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:18:13-65
+28-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:18:21-62
+29
+30            <data android:scheme="tel" />
+30-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:13-44
+30-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:19-41
+31        </intent>
+32        <intent>
+32-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:21:9-24:18
+33            <action android:name="android.intent.action.SEND" />
+33-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:22:13-65
+33-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:22:21-62
+34
+35            <data android:mimeType="*/*" />
+35-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:13-44
+35-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:23:19-41
+36        </intent>
+37        <intent>
+37-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+38            <action android:name="android.support.customtabs.action.CustomTabsService" />
+38-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+38-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+39        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+40        <package android:name="com.google.android.apps.maps" />
+40-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+40-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+41    </queries>
+42
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+43-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+44-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+45    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+45-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+45-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+46    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+46-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+46-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+47    <uses-permission android:name="android.permission.VIBRATE" />
+47-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-66
+47-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-63
+48    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+48-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+48-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+49    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+49-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+49-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+50    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+50-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:5-82
+51-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:29:22-79
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+55        android:required="true" />
+55-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+56
+57    <application
+57-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:27:5-90:19
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.8.0] C:\Users\winni\.gradle\caches\transforms-3\6b6b8dcfcb01145de3467ab1c0edf33b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+59        android:icon="@mipmap/ic_launcher"
+59-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:31:9-43
+60        android:label="StackFood"
+60-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:28:9-34
+61        android:requestLegacyExternalStorage="true"
+61-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:29:9-52
+62        android:usesCleartextTraffic="true" >
+62-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:30:9-44
+63        <meta-data
+63-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:32:9-33:70
+64            android:name="com.google.android.geo.API_KEY"
+64-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:32:20-65
+65            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ" />
+65-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:33:13-68
+66
+67        <activity
+67-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:35:9-67:20
+68            android:name="com.sixamtech.stack_food.MainActivity"
+68-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:36:13-41
+69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+69-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:39:13-163
+70            android:exported="true"
+70-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:41:13-36
+71            android:hardwareAccelerated="true"
+71-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:40:13-47
+72            android:launchMode="singleTop"
+72-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:37:13-43
+73            android:theme="@style/LaunchTheme"
+73-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:38:13-47
+74            android:windowSoftInputMode="adjustResize" >
+74-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:42:13-55
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+82-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:47:13-50:17
+83                android:name="io.flutter.embedding.android.NormalTheme"
+83-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:48:15-70
+84                android:resource="@style/NormalTheme" />
+84-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:49:15-52
+85            <!--
+86                 Displays an Android View that continues showing the launch screen
+87                 Drawable until Flutter paints its first frame, then this splash
+88                 screen fades out. A splash screen is useful to avoid any visual
+89                 gap between the end of Android's launch screen and the painting of
+90                 Flutter's first frame.
+91            -->
+92            <meta-data
+92-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:56:13-58:45
+93                android:name="com.google.firebase.messaging.default_notification_channel_id"
+93-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:57:17-93
+94                android:value="stackfood" />
+94-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:58:17-42
+95
+96            <intent-filter>
+96-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:59:13-62:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:60:17-68
+97-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:60:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:61:17-76
+99-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:61:27-74
+100            </intent-filter>
+101            <intent-filter>
+101-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:63:13-66:29
+102                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+102-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:64:17-69
+102-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:64:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:65:17-76
+104-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:65:27-73
+105            </intent-filter>
+106        </activity>
+107        <!--
+108             Don't delete the meta-data below.
+109             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+110        -->
+111        <meta-data
+111-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:70:9-72:33
+112            android:name="flutterEmbedding"
+112-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:71:13-44
+113            android:value="2" />
+113-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:72:13-30
+114        <meta-data
+114-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:73:9-74:54
+115            android:name="com.facebook.sdk.ApplicationId"
+115-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:73:20-65
+116            android:value="@string/facebook_app_id" />
+116-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:74:13-52
+117
+118        <activity
+118-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:76:9-79:48
+119            android:name="com.facebook.FacebookActivity"
+119-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:76:19-63
+120            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+120-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:77:13-113
+121            android:label="@string/app_name" />
+121-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:79:13-45
+122        <activity
+122-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:80:9-89:20
+123            android:name="com.facebook.CustomTabActivity"
+123-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:81:13-58
+124            android:exported="true" >
+124-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:82:13-36
+125            <intent-filter>
+125-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:83:13-88:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:14:13-65
+126-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:14:21-62
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:65:17-76
+128-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:65:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:86:17-78
+129-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:86:27-75
+130
+131                <data android:scheme="@string/fb_login_protocol_scheme" />
+131-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:13-44
+131-->C:\Users\winni\StudioProjects\efood_multivendor\android\app\src\main\AndroidManifest.xml:15:19-41
+132            </intent-filter>
+133        </activity>
+134
+135        <service
+135-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-17:72
+136            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+136-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-107
+137            android:exported="false"
+137-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-69
+139        <service
+139-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-24:19
+140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+140-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-97
+141            android:exported="false" >
+141-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-37
+142            <intent-filter>
+142-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+143-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+144            </intent-filter>
+145        </service>
+146
+147        <receiver
+147-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-33:20
+148            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+148-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-98
+149            android:exported="true"
+149-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-36
+150            android:permission="com.google.android.c2dm.permission.SEND" >
+150-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-73
+151            <intent-filter>
+151-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+152                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+152-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+152-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+153            </intent-filter>
+154        </receiver>
+155
+156        <service
+156-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-39:19
+157            android:name="com.google.firebase.components.ComponentDiscoveryService"
+157-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:35:18-89
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+159            android:exported="false" >
+159-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:55:13-37
+160            <meta-data
+160-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-38:85
+161                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+161-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:17-128
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:17-82
+163            <meta-data
+163-->[:firebase_core] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+164                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+164-->[:firebase_core] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[:firebase_core] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:56:13-58:85
+167                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+167-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:57:17-119
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:58:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\winni\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+170                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+170-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\winni\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\winni\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\winni\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+173                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+173-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\winni\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\winni\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+175        </service>
+176
+177        <provider
+177-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-45:38
+178            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+178-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-102
+179            android:authorities="com.sixamtech.stack_food.flutterfirebasemessaginginitprovider"
+179-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-88
+180            android:exported="false"
+180-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-37
+181            android:initOrder="99" />
+181-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-35
+182
+183        <service
+183-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:56
+184            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+184-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-77
+185            android:enabled="true"
+185-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-35
+186            android:exported="false"
+186-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+187            android:foregroundServiceType="location" />
+187-->[:geolocator_android] C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-53
+188
+189        <provider
+189-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+190            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+190-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+191            android:authorities="com.sixamtech.stack_food.flutter.image_provider"
+191-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+192            android:exported="false"
+192-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+193            android:grantUriPermissions="true" >
+193-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+194            <meta-data
+194-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+195                android:name="android.support.FILE_PROVIDER_PATHS"
+195-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+196                android:resource="@xml/flutter_image_picker_file_paths" />
+196-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+197        </provider>
+198
+199        <receiver
+199-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+200            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+200-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-97
+201            android:exported="false" />
+201-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+202        <receiver
+202-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-28:20
+203            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+203-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-101
+204            android:exported="false" >
+204-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+205            <intent-filter>
+205-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-27:29
+206                <action android:name="android.intent.action.BOOT_COMPLETED" />
+206-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:17-79
+206-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:25-76
+207                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+207-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-84
+207-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-81
+208                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+208-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-82
+208-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-79
+209                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+209-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-82
+209-->[:flutter_local_notifications] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-79
+210            </intent-filter>
+211        </receiver>
+212
+213        <activity
+213-->[:url_launcher_android] C:\Users\winni\StudioProjects\efood_multivendor\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+214            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+214-->[:url_launcher_android] C:\Users\winni\StudioProjects\efood_multivendor\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+215            android:exported="false"
+215-->[:url_launcher_android] C:\Users\winni\StudioProjects\efood_multivendor\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+216            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+216-->[:url_launcher_android] C:\Users\winni\StudioProjects\efood_multivendor\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+217        <activity
+217-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+218            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+218-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+219            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+219-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+220            android:exported="true"
+220-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-36
+221            android:theme="@style/AppTheme" />
+221-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+222        <activity
+222-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+223            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+223-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+224            android:exported="true"
+224-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+225            android:theme="@style/ThemeTransparent" />
+225-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+226        <activity
+226-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+227            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+227-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+228            android:exported="true"
+228-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+229            android:theme="@style/ThemeTransparent" />
+229-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+230        <activity
+230-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+231            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+231-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+232            android:exported="true"
+232-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-36
+233            android:launchMode="singleInstance"
+233-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+234            android:theme="@style/ThemeTransparent" />
+234-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+235        <activity
+235-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+236            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+236-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+237            android:exported="true"
+237-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-36
+238            android:launchMode="singleInstance"
+238-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+239            android:theme="@style/ThemeTransparent" />
+239-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+240
+241        <receiver
+241-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+242            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+242-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+243            android:enabled="true"
+243-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+244            android:exported="false" />
+244-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+245
+246        <meta-data
+246-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+247            android:name="io.flutter.embedded_views_preview"
+247-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+248            android:value="true" />
+248-->[:flutter_inappwebview] C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+249
+250        <provider
+250-->[:share_plus] C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+251            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+251-->[:share_plus] C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+252            android:authorities="com.sixamtech.stack_food.flutter.share_provider"
+252-->[:share_plus] C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+253            android:exported="false"
+253-->[:share_plus] C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+254            android:grantUriPermissions="true" >
+254-->[:share_plus] C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+255            <meta-data
+255-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+256                android:name="android.support.FILE_PROVIDER_PATHS"
+256-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+257                android:resource="@xml/flutter_share_file_paths" />
+257-->[:image_picker_android] C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+258        </provider>
+259
+260        <uses-library
+260-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+261            android:name="androidx.window.extensions"
+261-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+262            android:required="false" />
+262-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+263        <uses-library
+263-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+264            android:name="androidx.window.sidecar"
+264-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+265            android:required="false" />
+265-->[androidx.window:window:1.0.0-beta04] C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+266
+267        <receiver
+267-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:32:9-39:20
+268            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+268-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:33:13-78
+269            android:exported="true"
+269-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:34:13-36
+270            android:permission="com.google.android.c2dm.permission.SEND" >
+270-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:35:13-73
+271            <intent-filter>
+271-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+272                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+272-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+272-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+273            </intent-filter>
+274        </receiver>
+275        <!--
+276             FirebaseMessagingService performs security checks at runtime,
+277             but set to not exported to explicitly avoid allowing another app to call it.
+278        -->
+279        <service
+279-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:45:9-52:19
+280            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+280-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:46:13-82
+281            android:directBootAware="true"
+281-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:47:13-43
+282            android:exported="false" >
+282-->[com.google.firebase:firebase-messaging:23.0.7] C:\Users\winni\.gradle\caches\transforms-3\6af81c2e197583300656015469c99759\transformed\jetified-firebase-messaging-23.0.7\AndroidManifest.xml:48:13-37
+283            <intent-filter android:priority="-500" >
+283-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+284                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+284-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+284-->[:firebase_messaging] C:\Users\winni\StudioProjects\efood_multivendor\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+285            </intent-filter>
+286        </service>
+287
+288        <provider
+288-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+289            android:name="com.google.firebase.provider.FirebaseInitProvider"
+289-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+290            android:authorities="com.sixamtech.stack_food.firebaseinitprovider"
+290-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+291            android:directBootAware="true"
+291-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+292            android:exported="false"
+292-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+293            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+293-->[com.google.firebase:firebase-common:20.1.1] C:\Users\winni\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+294        <uses-library
+294-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+295            android:name="org.apache.http.legacy"
+295-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+296            android:required="false" />
+296-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\winni\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+297
+298        <activity
+298-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\winni\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+299            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+299-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\winni\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\winni\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\winni\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+302
+303        <meta-data
+303-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\winni\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+304            android:name="com.google.android.gms.version"
+304-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\winni\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+305            android:value="@integer/google_play_services_version" />
+305-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\winni\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+306
+307        <provider
+307-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+308            android:name="androidx.startup.InitializationProvider"
+308-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+309            android:authorities="com.sixamtech.stack_food.androidx-startup"
+309-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+310            android:exported="false" >
+310-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+311            <meta-data
+311-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+312                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+312-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+313                android:value="androidx.startup" />
+313-->[androidx.emoji2:emoji2:1.0.0] C:\Users\winni\.gradle\caches\transforms-3\ff2c0e370bb1d11b3539c2533272a9de\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+314            <meta-data
+314-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\winni\.gradle\caches\transforms-3\3193c2f89302e8aa7e8281747929cc15\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+315                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+315-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\winni\.gradle\caches\transforms-3\3193c2f89302e8aa7e8281747929cc15\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+316                android:value="androidx.startup" />
+316-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\winni\.gradle\caches\transforms-3\3193c2f89302e8aa7e8281747929cc15\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+317        </provider>
+318
+319        <service
+319-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+320            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+320-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+321            android:exported="false" >
+321-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+322            <meta-data
+322-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+323                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+323-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+324                android:value="cct" />
+324-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+325        </service>
+326        <service
+326-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+327            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+327-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+328            android:exported="false"
+328-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+329            android:permission="android.permission.BIND_JOB_SERVICE" >
+329-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+330        </service>
+331
+332        <receiver
+332-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+333            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+333-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+334            android:exported="false" />
+334-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\winni\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+335    </application>
+336
+337</manifest>

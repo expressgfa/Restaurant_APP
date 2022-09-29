@@ -1,0 +1,14 @@
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-java-1.0.0-beta04-0 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-annotation-experimental-1.1.0-1 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.imagepicker.image_picker_android-core-1.8.0-2 C:\Users\winni\.gradle\caches\transforms-3\6b6b8dcfcb01145de3467ab1c0edf33b\transformed\core-1.8.0\res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-1.0.0-beta04-3 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-runtime-2.3.1-4 C:\Users\winni\.gradle\caches\transforms-3\f55dadf8f5c96b08146b0debbf4ccfa0\transformed\lifecycle-runtime-2.3.1\res
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-5 C:\Users\winni\StudioProjects\efood_multivendor\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-6 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\generated\res\pngs\release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-7 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\generated\res\resValues\release
+io.flutter.plugins.imagepicker.image_picker_android-rs-8 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\generated\res\rs\release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-9 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-10 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-11 C:\Users\winni\StudioProjects\efood_multivendor\build\image_picker_android\intermediates\merged_res\release
+io.flutter.plugins.imagepicker.image_picker_android-main-12 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker_android-0.8.5+3\android\src\main\res
+io.flutter.plugins.imagepicker.image_picker_android-release-13 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\image_picker_android-0.8.5+3\android\src\release\res

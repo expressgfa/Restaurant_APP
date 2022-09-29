@@ -1,0 +1,14 @@
+dev.fluttercommunity.plus.share.share_plus-jetified-core-ktx-1.7.0-0 C:\Users\winni\.gradle\caches\transforms-3\027aae13af153ad643b31fafc0546811\transformed\jetified-core-ktx-1.7.0\res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-java-1.0.0-beta04-1 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+dev.fluttercommunity.plus.share.share_plus-jetified-annotation-experimental-1.1.0-2 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+dev.fluttercommunity.plus.share.share_plus-core-1.7.0-3 C:\Users\winni\.gradle\caches\transforms-3\d3c4627929c6ebaa98c4935ab622707c\transformed\core-1.7.0\res
+dev.fluttercommunity.plus.share.share_plus-jetified-window-1.0.0-beta04-4 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+dev.fluttercommunity.plus.share.share_plus-lifecycle-runtime-2.3.1-5 C:\Users\winni\.gradle\caches\transforms-3\f55dadf8f5c96b08146b0debbf4ccfa0\transformed\lifecycle-runtime-2.3.1\res
+dev.fluttercommunity.plus.share.share_plus-pngs-6 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\generated\res\pngs\release
+dev.fluttercommunity.plus.share.share_plus-resValues-7 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\generated\res\resValues\release
+dev.fluttercommunity.plus.share.share_plus-rs-8 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\generated\res\rs\release
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-9 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-10 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.fluttercommunity.plus.share.share_plus-merged_res-11 C:\Users\winni\StudioProjects\efood_multivendor\build\share_plus\intermediates\merged_res\release
+dev.fluttercommunity.plus.share.share_plus-main-12 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\share_plus-4.1.0\android\src\main\res
+dev.fluttercommunity.plus.share.share_plus-release-13 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\share_plus-4.1.0\android\src\release\res

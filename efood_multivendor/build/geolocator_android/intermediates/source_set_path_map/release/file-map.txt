@@ -1,0 +1,14 @@
+com.baseflow.geolocator.geolocator_android-jetified-window-java-1.0.0-beta04-0 C:\Users\winni\.gradle\caches\transforms-3\3299ded844d4218305dd6fc73958c157\transformed\jetified-window-java-1.0.0-beta04\res
+com.baseflow.geolocator.geolocator_android-jetified-annotation-experimental-1.1.0-1 C:\Users\winni\.gradle\caches\transforms-3\3d604f50c3933c7501c9956525d1e176\transformed\jetified-annotation-experimental-1.1.0\res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-base-17.0.0-2 C:\Users\winni\.gradle\caches\transforms-3\ae1c8186b2861cc4dc162a4d3057973f\transformed\jetified-play-services-base-17.0.0\res
+com.baseflow.geolocator.geolocator_android-core-1.6.0-3 C:\Users\winni\.gradle\caches\transforms-3\bfa3c606c87eab65281e5cf20d02a58a\transformed\core-1.6.0\res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-17.0.0-4 C:\Users\winni\.gradle\caches\transforms-3\cd2cbf8adb4a46de9a95a9a2e3fafe6e\transformed\jetified-play-services-basement-17.0.0\res
+com.baseflow.geolocator.geolocator_android-jetified-window-1.0.0-beta04-5 C:\Users\winni\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\res
+com.baseflow.geolocator.geolocator_android-pngs-6 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\generated\res\pngs\release
+com.baseflow.geolocator.geolocator_android-resValues-7 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\generated\res\resValues\release
+com.baseflow.geolocator.geolocator_android-rs-8 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\generated\res\rs\release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-9 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-10 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-11 C:\Users\winni\StudioProjects\efood_multivendor\build\geolocator_android\intermediates\merged_res\release
+com.baseflow.geolocator.geolocator_android-main-12 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\geolocator_android-3.2.1\android\src\main\res
+com.baseflow.geolocator.geolocator_android-release-13 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\geolocator_android-3.2.1\android\src\release\res
